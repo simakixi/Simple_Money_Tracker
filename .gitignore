@@ -1,0 +1,35 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.sql.gz
+mysql_data/
+
+# PHP
+vendor/
+composer.phar
+composer.lock
+
+# Environment variables (重要: パスワードなどの機密情報)
+.env
+config/database.php
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+cache/
